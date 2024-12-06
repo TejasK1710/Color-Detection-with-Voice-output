@@ -62,3 +62,42 @@ This project is a simple implementation of computer vision and speech synthesis.
   sudo apt update && sudo apt upgrade -y
 
 
+### 2. Configure Audio Output
+sudo raspi-config
+
+### 3. Install Dependencies'
+-pip install opencv-python gTTS pygame
+
+### 4. Clone or Write the Script
+ color_detection.py
+
+### Usage
+-Run the Script
+    Start the program:
+    color_detection.py
+### Functionality
+          Place an object in front of the camera.
+          The program detects the object's color.
+The detected color is:
+          Displayed on the video feed.
+          Announced via a speaker or headphones.
+### Result
+## Expected Output
+         Video Feed: The live camera feed displays the detected color name on the frame.
+         Voice Feedback: A voice announces the detected color name.
+         For example:
+         
+         When a red object is detected:
+         Video: Displays "Red".
+         Audio: Says "Red".
+
+### License
+### Key Additions:
+1. **Table of Contents** for easy navigation.
+2. **Project Overview** for a high-level explanation.
+3. **Technology Used** for both hardware and software specifics.
+4. **Result** section describing the expected output.
+5. **Customization** section for modifying HSV ranges.
+
+
+
